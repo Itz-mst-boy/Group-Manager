@@ -100,7 +100,7 @@ buttons = [
     [
         InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
         InlineKeyboardButton(
-            text="SᴏᴜʀᴄᴇCᴏᴅᴇ", url="tg://need_update_for_some_feature/"
+            text="SᴏᴜʀᴄᴇCᴏᴅᴇ", url="https://github.com/Itz-mst-boy/Group-Manager"
         ),
     ],
     [
@@ -247,7 +247,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/friend_warriors")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/worldwide_friend_zone")]]
             ),
         )
         
@@ -379,8 +379,8 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *Mukesh* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of Mukeshrobot.`
+            text=""" *Mukhushi* - `A bot to manage your groups with additional features!`
+            \n`Here the basic help regarding use of Mukhushi robot.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
             \n`Report error/bugs click the Button`""",
@@ -390,10 +390,10 @@ def yurikorobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="https://t.me/friend_warriors"
+                            text="Bᴜɢ'ꜱ", url="https://t.me/worldwide_friend_zone"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/mastermind_network_official/37"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/moi_bot_lists/4"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
@@ -481,7 +481,7 @@ def yurikorobot_about_callback(update, context):
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
             f"\n\n✗ `3.) add` @Itz_lengend_mukesh `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The ᴍᴜᴋʜᴜsʜɪ Music And Join Support Group @Friend_warriors*"
+            f"\n\n✗ *Lets Enjoy The ᴍᴜᴋʜᴜsʜɪ Music And Join Support Group @worldwide_friend_zome*"
             f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ : @mastermind_network_official !*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -519,7 +519,7 @@ def yurikorobot_about_callback(update, context):
                     InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/mukhushi_official"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/friend_warriors"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/worldwide_friend_zone"),
                     InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/mastermind_network_official"),
                  ],
                  [
@@ -533,7 +533,7 @@ def yurikorobot_about_callback(update, context):
         query.message.edit_text(
             text=f"<b> CREDIT FOR Mukesh DEV'S</b>\n"
             
-            f"\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
+            f"\n`✗ Here Some Developers Helping in Making The Mukhushi Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -556,7 +556,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *ᴍᴜᴋʜᴜsʜɪ ʀᴏʙᴏᴛ*
-                 \nHere is the [🔥Source Code🔥](tg://need_update_for_some_feature/) .""",
+                 \nHere is the [🔥Source Code🔥](https://github.com/Itz-mst-boy/Group-Manager) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
