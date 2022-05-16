@@ -434,9 +434,9 @@ async def tg_search_func(answers, text, user_id):
 
 async def music_inline_func(answers, query):
     chat_id = -1001613182747
-    group_invite = ""
-    try:https://t.me/worldwide_friend_zone
-        messages = [
+    group_invite = "https://t.me/worldwide_friend_zone"
+    try:
+        messages = [ 
             m
             async for m in ubot2.search_messages(
                 chat_id, query, filter="audio", limit=100
