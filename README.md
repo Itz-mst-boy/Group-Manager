@@ -19,7 +19,7 @@ A  ᴘᴏᴡᴇʀғᴜʟ, sᴍᴀʀᴛ ᴀɴᴅ sɪᴍᴘʟᴇ ɢʀᴏᴜᴘ ᴍ
 # 🚀 ʜᴇʀᴏᴋᴜ  ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 
-[![ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/Xdd)
+[![ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Itz-mst-boy/Group-Manager)
 
 [sᴛʀɪɴɢ   sᴇssɪᴏɴ ʙᴏᴛ](https://t.me/itz_string_session_bot)
 
