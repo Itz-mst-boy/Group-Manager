@@ -29,7 +29,7 @@ A  ᴘᴏᴡᴇʀғᴜʟ, sᴍᴀʀᴛ ᴀɴᴅ sɪᴍᴘʟᴇ ɢʀᴏᴜᴘ ᴍ
 
 [ᴍᴜᴋᴇsʜ](https://t.me/itz_mst_boy)
 
-[]()
+[ɴᴜʟʟ ᴄᴏᴅᴇʀ](https://t.me/Shubhanshutya)
 
 #  sᴜᴘᴘᴏʀᴛ ɴᴅ ᴜᴘᴅᴀᴛᴇs
 
