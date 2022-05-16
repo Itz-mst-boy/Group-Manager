@@ -315,8 +315,8 @@ def info(update: Update, context: CallbackContext):
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
-    elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @excrybaby. Bot Name Inspired From 'JoJo'."
+    elif user.id == 5142140533:
+         text += "\n\nOwner Of A Bot. Queen  bot @mukhushi_official . Bot Name Inspired From 'JoJo'."
          disaster_level_present = True
 
     try:
