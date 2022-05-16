@@ -16,7 +16,7 @@ db = client["emiexrobot"]
 gbanned = db.gban
 
 def register(**args):
-    """ Registers a new message. """
+    """ ʀᴇɢɪsᴛᴇʀs ᴀ ɴᴇᴡ ᴍᴇssᴀɢᴇ. """
     pattern = args.get("pattern", None)
 
     r_pattern = r"^[/!.]"
@@ -34,7 +34,7 @@ def register(**args):
 
 
 def chataction(**args):
-    """ Registers chat actions. """
+    """ ʀᴇɢɪsᴛᴇʀs ᴄʜᴀᴛ ᴀᴄᴛɪᴏɴs. """
 
     def decorator(func):
         telethn.add_event_handler(func, events.ChatAction(**args))
@@ -44,7 +44,7 @@ def chataction(**args):
 
 
 def userupdate(**args):
-    """ Registers user updates. """
+    """ ʀᴇɢɪsᴛᴇʀs ᴜsᴇʀ ᴜᴘᴅᴀᴛᴇs. """
 
     def decorator(func):
         telethn.add_event_handler(func, events.UserUpdate(**args))
@@ -54,7 +54,7 @@ def userupdate(**args):
 
 
 def inlinequery(**args):
-    """ Registers inline query. """
+    """ ʀᴇɢɪsᴛᴇʀs ɪɴʟɪɴᴇ ǫᴜᴇʀʏ. """
     pattern = args.get("pattern", None)
 
     if pattern is not None and not pattern.startswith("(?i)"):
@@ -68,7 +68,7 @@ def inlinequery(**args):
 
 
 def callbackquery(**args):
-    """ Registers inline query. """
+    """ ʀᴇɢɪsᴛᴇʀs ɪɴʟɪɴᴇ ǫᴜᴇʀʏ. """
 
     def decorator(func):
         telethn.add_event_handler(func, events.CallbackQuery(**args))
